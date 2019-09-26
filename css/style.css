@@ -204,9 +204,15 @@ body{
   padding: 10px;
 }
 
-.second, .third {
+/* .second, .third {
   display: none;
   visibility: hidden;
+} */
+
+.date {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .btn {
