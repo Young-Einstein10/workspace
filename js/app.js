@@ -4,7 +4,7 @@
 const clear = document.querySelector('.clear')
 const dateElement = document.getElementById('date')
 const list = document.getElementById('list')
-const input = document.getElementById('input')
+const input = document.getElementById('addInput')
 
 // Class names
 const CHECK = 'fa-check-circle'
@@ -36,10 +36,10 @@ function loadList (array) {
 }
 
 // clear the local storage
-clear.addEventListener('click', function () {
-  localStorage.clear()
-  location.reload()
-})
+// clear.addEventListener('click', function () {
+//   localStorage.clear()
+//   location.reload()
+// })
 
 // Show todays date
 // const options = { weekday: 'long', month: 'short', day: 'numeric' }
